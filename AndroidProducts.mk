@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/tequila_laurel_sprout.mk
+    $(LOCAL_DIR)/lineage_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    tequila_laurel_sprout-user \
-    tequila_laurel_sprout-userdebug \
-    tequila_laurel_sprout-eng
+    lineage_laurel_sprout-user \
+    lineage_laurel_sprout-userdebug \
+    lineage_laurel_sprout-eng
