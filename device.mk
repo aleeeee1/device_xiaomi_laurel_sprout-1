@@ -47,7 +47,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-    audio.primary.trinket \
     audio.r_submix.default \
     audio.usb.default
 
@@ -75,7 +74,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     libldacBT_enc \
     libldacBT_abr \
-    libldacBT_bco \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor \
@@ -116,13 +114,8 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# Debug
-PRODUCT_PACKAGES += \
-    dlopen
-
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-impl \
     android.hardware.graphics.composer@2.4-service \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
@@ -347,7 +340,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.zram \
     init.class_main.sh \
-    init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
